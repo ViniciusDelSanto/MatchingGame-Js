@@ -1,10 +1,10 @@
 import "./style.css"
 
-function cardGame (){
+function cardGame (icon ="aluraPixel", alt="Log da Alura"){
 
     return`
-        <article class="card-game">
-            <img src="images/aluraPixel.png" alt="Logo da Alura">
+        <article class="card-game" onclick="viraCard(event)">
+            <img src="images/${icon}.png" alt="${alt}">
         </article>
     `
 } 
